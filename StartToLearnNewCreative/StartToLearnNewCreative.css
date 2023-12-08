@@ -1,0 +1,47 @@
+/* START START TO LEARN NEW CREATIVE SKILLS*/
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.StartToLearnNewCreative {
+  padding: 6rem;
+  background-color: #1c1c1c;
+  color: white;
+  font-style: normal;
+}
+
+.StartToLearnNewCreative_head {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.44px;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.StartToLearnNewCreative_button {
+  border-radius: 5px;
+  background: #f2c343;
+  color: #121212;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+
+  display: flex;
+  height: 68px;
+  padding: 15px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+}
+/* END START TO LEARN NEW CREATIVE SKILLS*/

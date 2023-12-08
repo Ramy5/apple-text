@@ -1,0 +1,45 @@
+/* START OUR TECHNICAL CONSULTATION */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Hello";
+}
+
+.EveryoneCanCreate {
+  padding: 6rem;
+  color: white;
+  font-style: normal;
+  background-size: cover;
+  object-fit: cover;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.54),
+      rgba(0, 0, 0, 0.54)
+    ),
+    url("../assets/everyoneCanCreate.svg");
+}
+
+.EveryoneCanCreate_paragraph {
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0.92;
+  margin-bottom: 40px;
+  max-width: 572px;
+  font-style: normal;
+  line-height: 43px; /* 128.571% */
+  letter-spacing: 1.2px;
+  color: #fff;
+}
+
+/* START OUR TECHNICAL CONSULTATION */

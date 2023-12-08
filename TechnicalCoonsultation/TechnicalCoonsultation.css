@@ -1,0 +1,53 @@
+/* START OUR TECHNICAL CONSULTATION */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Hello";
+}
+
+.TechnicalCoonsultation {
+  padding: 6rem;
+  color: white;
+  font-style: normal;
+  background-size: cover;
+  object-fit: cover;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.54),
+      rgba(0, 0, 0, 0.54)
+    ),
+    url("../assets/Technical _Consultation_and_Planning.png");
+}
+
+.TechnicalCoonsultation_head {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+  width: 722px;
+}
+
+.TechnicalCoonsultation_paragraph {
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0.92;
+  margin-bottom: 40px;
+  max-width: 850px;
+  font-style: normal;
+  line-height: 43px; /* 128.571% */
+  letter-spacing: 1.2px;
+  color: #fff;
+}
+
+/* START OUR TECHNICAL CONSULTATION */

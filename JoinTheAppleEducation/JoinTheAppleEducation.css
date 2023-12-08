@@ -1,0 +1,80 @@
+/* START OUR TECHNICAL CONSULTATION */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Hello";
+}
+
+.JoinTheAppleEducation {
+  padding: 6rem;
+  color: white;
+  font-style: normal;
+  background-size: cover;
+  object-fit: cover;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.54),
+      rgba(0, 0, 0, 0.54)
+    ),
+    url("../assets/School Leaders.svg");
+}
+
+.JoinTheAppleEducation_head {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+  width: 599px;
+}
+
+.JoinTheAppleEducation_paragraph--1 {
+  font-size: 23px;
+  font-weight: 400;
+  opacity: 0.92;
+  margin-bottom: 40px;
+  max-width: 676px;
+  font-style: normal;
+  line-height: 43px; /* 128.571% */
+  letter-spacing: 1.2px;
+  color: #fff;
+}
+
+.JoinTheAppleEducation_paragraph--2 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.JoinTheAppleEducation_link {
+  border-radius: 5px;
+  background: #f2c343;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
+  color: #121212;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  align-self: flex-start;
+
+  display: flex;
+  height: 68px;
+  padding: 15px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* START OUR TECHNICAL CONSULTATION */

@@ -1,0 +1,53 @@
+/* START BOOK CONSULTATION */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bookConsultation {
+  padding: 6rem;
+  background-color: #1c1c1c;
+  color: white;
+  font-style: normal;
+}
+
+.bookConsultation_head {
+  font-size: 54px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+  letter-spacing: -1.44px;
+}
+
+.bookConsultation_paragraph--1 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+.bookConsultation_button {
+  padding: 16px 20px;
+
+  width: 316px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #121212;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 5px;
+  background: #f2c343;
+  margin-top: 48px;
+  border: none;
+  cursor: pointer;
+}
+
+/* END BOOK CONSULTATION */

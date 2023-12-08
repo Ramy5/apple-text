@@ -1,0 +1,54 @@
+/* START DEPLOYMENT */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: SF Hello;
+}
+
+.deployment {
+  padding: 6rem;
+  background-color: #1c1c1c;
+  color: white;
+  font-style: normal;
+}
+
+.deployment_head {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+  letter-spacing: 0.44px;
+}
+
+.deployment_list {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem 2rem;
+  padding: 1rem 2rem;
+}
+
+@media (min-width: 1024px) {
+  .deployment_list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .deployment_list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.deployment_list li {
+  font-size: 28px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+}
+
+/* END DEPLOYMENT */
